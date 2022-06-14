@@ -1,4 +1,4 @@
-import { Container, Header, Logo, OutlineButton, Content, Subtitle, PresentationTitle, Paragraph, IconButton, IconWhatsapp, StatisticTable, PatientsAttendedBox, PatientsAttendedNumber, PatientsAttendedText, AvailableExpertsBox, AvailableExpertsNumber, AvailableExpertsText, Line, MarketYearsBox, MarketYearsNumber, MarketYearsText, Image, HeaderContent, Navigation, NavItem, PresentationText, Presentation, ServicesSection, ServicesBox, ServicesTitleBox, ServicesSubtitle, ServicesTitle, ServicesCardsBox, ServicesCard, IconCheckMark, CardTitle, CardText, StatisticBox } from "../../shared/styles";
+import { Container, Header, Logo, OutlineButton, Content, Subtitle, PresentationTitle, Paragraph, IconButton, IconWhatsapp, StatisticTable, PatientsAttendedBox, PatientsAttendedNumber, PatientsAttendedText, AvailableExpertsBox, AvailableExpertsNumber, AvailableExpertsText, Line, MarketYearsBox, MarketYearsNumber, MarketYearsText, Image, HeaderContent, Navigation, NavItem, PresentationText, Presentation, ServicesSection, ServicesBox, ServicesTitleBox, ServicesSubtitle, ServicesTitle, ServicesCardsBox, ServicesCard, IconCheckMark, CardTitle, CardText, StatisticBox, AboutUsSection, AboutUsContentBox, AboutUsImg, AboutUsTextBox, AboutUsNameTag, AboutUsTitle, AboutUsText, ContactUsSection, ContactUsTextBox, ContactUsImg, ContactUsBox, ContactUsTitle } from "../../shared/styles";
 
 export default function Home() {
   return (
@@ -88,6 +88,25 @@ export default function Home() {
           </ServicesCardsBox>
         </ServicesBox>
         </ServicesSection>
+        <AboutUsSection>
+          <AboutUsContentBox>
+            <AboutUsImg src="assets/doctor.png" alt="About us image" />
+            <AboutUsTextBox>
+              <AboutUsNameTag>SOBRE NÓS</AboutUsNameTag>
+              <AboutUsTitle>Entenda quem somos e por que existimos</AboutUsTitle>
+              <AboutUsText>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</AboutUsText>
+            </AboutUsTextBox>
+          </AboutUsContentBox>
+        </AboutUsSection>
+        <ContactUsSection>
+          <ContactUsBox>
+            <ContactUsImg src="assets/manhappy.png" alt="Contact us image" />
+            <ContactUsTextBox>
+              <ContactUsTitle>Entre em contato com a gente!</ContactUsTitle>
+              
+            </ContactUsTextBox>
+          </ContactUsBox>
+        </ContactUsSection>
     </Container>
   )
 }

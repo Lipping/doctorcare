@@ -316,6 +316,7 @@ export const ServicesCardsBox = styled.div`
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
+    max-width: 1440px;
 `;
 
 export const ServicesCard = styled.div`
@@ -350,3 +351,100 @@ export const CardText = styled.p`
     color: #495057;
     line-height: 1.5rem;
     `;
+
+export const AboutUsSection = styled.section`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 734px;
+    background-color: #FFFAF1;
+    `;
+
+export const AboutUsContentBox = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 67px;
+    max-width: 1366px;
+    `;
+
+export const AboutUsImg = styled.img`
+    width: 480px;
+    height: 414px;
+    margin-left: 123px;
+    `;
+
+export const AboutUsTextBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin-right: 123px;
+    width: 100%;
+    max-width: 1440px;
+    `;
+
+export const AboutUsNameTag = styled.p`
+    font-weight: 700;
+    color: #00856f;
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+    letter-spacing: 0.08em;
+    
+    `;
+
+export const AboutUsTitle = styled.h2`
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #212529;
+    line-height: 3.255rem;
+    margin-top: 10px;
+    `;
+export const AboutUsText = styled.p`
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+    line-height: 1.5rem;
+    margin-top: 24px;
+    `;
+    
+export const ContactUsSection = styled.section`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 699px;
+    background-color: #fff;
+    `;
+export const ContactUsBox = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 141px;
+    max-width: 1440px;
+    padding: 0 123px;
+    `;
+
+export const ContactUsTextBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    `;
+export const ContactUsTitle = styled.h3`
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #212529;
+    line-height: 3.255rem;
+    margin-top: 10px;
+    `; 
+
+export const ContactUsImg = styled.img`
+    width: 575px;
+    height: 379px;
+    margin-left: 123px;
+    `;
+
